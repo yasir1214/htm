@@ -1,0 +1,8 @@
+ul{
+    flex: display column;
+    text-decoration: underline;
+    text-shadow: 4px 4px 5px gold;
+    letter-spacing: 2px;
+    line-height: 30px;
+    font-style: italic;
+}
