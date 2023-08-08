@@ -1,0 +1,86 @@
+@import url(https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?size=626&ext=jpg);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background: #081b29;
+color: aliceblue;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px ;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+font-size: 18px;
+color: aliceblue;
+text-decoration: none;
+font-weight: 500;
+margin-left: 30px;
+transition: 2s;
+}
+
+.navbar a :hover,
+.navbar a.active {
+    color: rgb(0, 47, 255);
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.home-content{
+     
+    max-width: 600px;
+}
+
+.home-content h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(25, 0, 255);
+}
+
+.home-content p {
+    font-size: 15px;
+}
+
+.home-content .abc-box{
+    width: 345px;
+    height: 50px;
+    background: yellowgreen;
+
+}
+.abc-box a{
+    display: inline-flex;
+    width: 150px;
+    height: 100%;
+    background-color: aqua;
+    border: 2px solid aqua;
+}
